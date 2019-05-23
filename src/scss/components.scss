@@ -1,0 +1,28 @@
+@import "./variable.scss";
+.circle-btn{
+    display: inline-block;
+    background-color: inherit;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #888;
+    color: #888;
+    text-align: center;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    label{
+        cursor: pointer;
+    }
+    &.success{
+        color: $success;
+        border-color: $success;
+    }
+    &.warning{
+        color: $warning;
+        border-color: $warning;
+    }
+    &.danger{
+        color: $danger;
+        border-color: $danger;
+    }
+}

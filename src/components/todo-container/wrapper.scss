@@ -1,0 +1,66 @@
+.wrapper{
+    width: 60%;
+    min-width: 810px;
+    .add-item-wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 2px 3px 3px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        .dropdown{
+                .btn{
+                    background-color: inherit;
+                    color: #707070;
+                    border-radius: 0;            
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                    border-right: 1px solid #ddd;
+                    transition: all .2s;
+                }      
+                li{
+                    cursor: pointer;
+                }  
+            }
+            .add-item-form{
+                flex: auto;
+                height: 100%;
+                input{
+                    padding-left: 10px;
+                    background: inherit;
+                    border: 0;
+                    width: 90%;
+                    height: 100%;                    
+                }                
+            }
+    }
+    
+
+    .todo-list{
+        margin-top: 2rem;
+        width: 100%;
+        border-radius: 5px;
+        .todo-item{
+            display: flex;
+            width: 100%;
+            padding-top: 15px;
+            padding: 10px 15px;
+            form{
+                flex: auto;
+                input{
+                    width: 100%;
+                    display: block;
+                }
+                span{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            &:not(:last-child){
+                border-bottom: 1px solid rgba(136, 136, 136, 0.507);
+            }
+        }
+    }
+}

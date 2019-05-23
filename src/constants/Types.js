@@ -1,0 +1,6 @@
+export const ADD_ITEM = "ADD_ITEM";
+export const SET_VISIBLE_FILTER = "SET_VISIBLE_FILTER";
+export const CHANGE_THEME = "CHANGE_THEME";
+export const CHANGE_ITEM_CONTENT = "CHANGE_ITEM_CONTENT";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const TOGGLE_COMPLETE = "TOGGLE_COMPLETE";
